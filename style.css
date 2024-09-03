@@ -11,18 +11,12 @@
     background-color: #FFF5EB;
     padding-inline: 20px;
     padding-top: 20px;
-    /* background-color: #FFF5EB; */
-    /* display: flex; */
-    
 }
 
 .navbar{
     width: 100%;
     height: 10vh;
     margin-bottom: 20px;
-    /* margin-inline: 20px; */
-    /* margin-top: 10px; */
-
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
@@ -242,4 +236,90 @@
     }
     
     
+ }
+
+
+
+ @media (max-width:480px) {
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+ 
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+     /* border: 1px solid black; */
+    border-radius: 10px  10px 0 0;
+     margin: 0px;
+ /* border: none; */
+}
+
+.right {
+    width: 100%;
+    margin-right:0px;
+
+}
+
+.left{
+    width: 100%; 
+    height:auto;
+    margin-right: 0px;
+    border: 1px solid black;
+    border-radius: 0px 0 0 0; 
+    display: flex;
+    border: none;
+    /* align-items: start; */
+}
+.left img {
+    width:100%;
+    height:auto;
+    padding-left: 0px;
+    border: none;
+ }
+
+.txt-area{
+    padding-left: 30px;
+}
+
+
+.txt-area span{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.box h2{
+    font-size:20px;
+}
+
+
+.login-section{
+    width: 30%;
+    padding-left: 20px;
+    margin-right: 0px;
+}
+
+.login-section button {
+    width: 80px;
+    height: 40px;
+    font-size:12px;
+}
+
+
+.login-section h6 {
+    font-size:12px;
+    padding-left:2PX;
+
+
+}
+
+
+
+
  }
